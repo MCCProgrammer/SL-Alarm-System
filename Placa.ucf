@@ -1,0 +1,25 @@
+# net list display 7 segmentos 
+NET "clk2"        LOC="B8"; 
+NET "ca"          LOC="L14"; 
+NET "cb"          LOC="H12"; 
+NET "cc"          LOC="N14"; 
+NET "cd"          LOC="N11";
+ NET "ce"          LOC="P12"; 
+ NET "cf"          LOC="L13";
+ NET "cg"          LOC="M12"; 
+ NET "cp"          LOC="N13"; 
+ NET "an3"         LOC="K14";
+ NET "an2"         LOC="M13"; 
+ NET "an1"         LOC="J12"; 
+ NET "an0"         LOC="F12";
+ NET "CLK"         LOC = "G12";
+ NET "clk"     CLOCK_DEDICATED_ROUTE = FALSE;
+ NET "RESET"       LOC = "A7"; 
+ NET "GO"          LOC = "N3"; 
+ NET "A1"          LOC = "B4"; 
+ NET "A0"          LOC = "K3"; 
+ NET "B1"          LOC = "L3"; 
+ NET "B0"          LOC = "P11"; 
+ NET "OK"          LOC = "M11"; 
+ NET "ALARM"       LOC = "M5";
+ 
